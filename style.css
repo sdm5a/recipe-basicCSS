@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(23, 3, 73);
+}
+
+/* navigation bar */
+.navbar{
+    background-color: rgb(28, 28, 66);
+    height: 75px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.navbar p{
+    font-weight: 100px;
+    font-style: none;
+    height: 40px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: left 100px; ;
+}
+
+a{
+    margin-left: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500px;
+}
+
+/* recipe content */
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    height: 100vh;
+    width: 75%;
+    background-color: rgb(31, 35, 77);
+}
+
+.gulab-jamun{
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-jamun p{
+    font-size: 1.5rem;
+    color: aqua;
+    margin-top: 25px;
+}
+
+footer{
+      background-color: rgb(92, 92, 118);
+      color: rgb(255, 255, 255);
+}
+
+.thanks p{
+    text-align: center;
+    height: 40px;
+}
+
+.links{
+    height: 40px;
+    background-color: rgb(19, 19, 18);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+}
